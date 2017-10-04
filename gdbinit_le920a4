@@ -1,0 +1,7 @@
+set arm apcs32 on
+set debug arm on
+set pagination off
+set sysroot ~/mdm9628_tools/sysroot
+set solib-search-path ~/mdm9628_tools/sysroot/lib:~/mdm9628_tools/sysroot/usr/lib:../bb/ejdk/lib/arm/client:../bb/ejdk/lib/arm:../bb/ejdk/lib
+target remote localhost:1234
+
